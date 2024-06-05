@@ -1,12 +1,11 @@
 import Navbar from "./components/navbar"
-import { Slide } from "./components/slide";
+import { Outlet } from "react-router-dom";
 function App() {
   return (
-    <>
+    <div className="container mx-auto">
      <Navbar/>
-     <Slide/>
-    
-    </>
+    <Outlet/>
+    </div>
   );
 }
 

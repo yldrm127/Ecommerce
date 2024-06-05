@@ -12,7 +12,7 @@ export function Slide()
     ]
 
     return (
-        <Carousel className=' m-6'>
+        <Carousel className='mt-5'>
             {
                 items.map( (item, i) => <Item key={i} item={item} /> )
             }
